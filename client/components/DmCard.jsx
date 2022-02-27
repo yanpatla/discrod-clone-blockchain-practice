@@ -2,9 +2,8 @@ import Image from "next/image";
 import React from "react";
 import styles from "../styles/dmCard.module.css";
 
-const DmCard = ({ dm,status }) => {
+const DmCard = ({ dm, status }) => {
   const changeUrl = () => {};
-  console.log(dm.status );
   return (
     <div className={styles.dmCard} onClick={changeUrl}>
       <div className={styles.dmAvatarContainer}>

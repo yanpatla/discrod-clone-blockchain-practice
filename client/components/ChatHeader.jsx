@@ -20,7 +20,7 @@ const ChatHeader = () => {
       </div>
 
       {currentAccount ? (
-        <div className={styles.connectedWdallet}>
+        <div className={styles.connectedWallet}>
           <Image src={ethLogo} height={20} width={15} />
           <span className={styles.separator}>|</span>
           {currentAccount.slice(0, 6)}...{currentAccount.slice(39)}
